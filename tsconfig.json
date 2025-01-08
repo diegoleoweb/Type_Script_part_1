@@ -1,7 +1,11 @@
 {
     "compilerOptions": {
-        "outDir": "dist/js",
-        "target": "ES6",
+      "module": "es6",
+      "outDir": "dist/js",
+      "target": "ES6",
+      "noEmitOnError": true,
+      "moduleResolution": "Node",
+      "skipLibCheck": true
     },
     "include": ["app/**/*"]
-}
+  }
